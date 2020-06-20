@@ -6,9 +6,11 @@ project(main)
 
 add_compile_options( -Wall -std=c++14 -O2 )
 
-# include_directories(  )
-# link_directories(  )
+# include_directories( )
+# link_directories( )
 # link_libraries( pthread )
+# link_libraries( -static -static-libstdc++ )
+# link_libraries( -Wl,--whole-archive -lpthread -Wl,--no-whole-archive )
 
 # set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 # set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
