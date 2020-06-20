@@ -1,1 +1,1 @@
-# cmake-101
+# cmake-template
